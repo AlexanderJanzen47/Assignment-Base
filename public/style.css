@@ -12,16 +12,6 @@ html {
     margin: auto;
 }
 
-.searchbox button {
-    padding: 8px;
-    margin-top: 10px;
-    margin-left: 10px;
-    background: gray;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-}
-
 input {
     width: 100px;
     padding: 20px;
