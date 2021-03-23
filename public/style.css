@@ -18,7 +18,7 @@ input {
 
 input.search {
     margin: 0;
-    text-align: center;
+    text-align: left;
     outline: 0;
     border: 20px solid lightgray;
     width: 120px;
