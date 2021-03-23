@@ -41,7 +41,7 @@ input.search {
 .suggestions li {
     margin: 0;
     padding: 20px;
-    top: 20%;
+    top: 30%;
     display: flex;
     background: white;
     list-style: none;
