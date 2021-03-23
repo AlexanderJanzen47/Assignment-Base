@@ -3,6 +3,7 @@ html {
     font-size: 24px;
     font-weight: 100;
     background: lightblue;
+    box-sizing: border-box;
 }
 
 .searchbox {
@@ -19,7 +20,7 @@ input.search {
     margin: 0;
     text-align: center;
     outline: 0;
-    border: 20px solid rebeccapurple;
+    border: 20px solid lightgray;
     width: 120px;
     position: relative;
     top: 10px;
@@ -38,7 +39,7 @@ input.search {
     margin: 0;
     padding: 20px;
     display: flex;
-    background: lightgray;
+    background: white;
     list-style: none;
     justify-content: space-evenly;
     text-transform: capitalize;
