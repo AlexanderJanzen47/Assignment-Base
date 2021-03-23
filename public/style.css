@@ -43,7 +43,7 @@ input.search {
     padding: 20px;
     top: 30%;
     display: flex;
-    background: white;
+    background:palevioletred;
     list-style: none;
     justify-content:space-between;
     text-transform: capitalize;
