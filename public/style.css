@@ -5,6 +5,7 @@ html {
     background: lightblue;
     box-sizing: border-box;
     max-width: 960px;
+    /* specified in the instructions*/
 }
 
 .searchbox {
@@ -47,6 +48,9 @@ input.search {
     list-style: none;
     justify-content:space-evenly;
     text-transform: capitalize;
-
 }
 
+span.results {
+    font-size: 16px;
+    position: center;
+}
