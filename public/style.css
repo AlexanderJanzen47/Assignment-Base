@@ -46,7 +46,7 @@ input.search {
     display: flex;
     background: white;
     list-style: none;
-    left: 30%;
+    position: center;
     justify-content:space-evenly;
     text-transform: capitalize;
 }
