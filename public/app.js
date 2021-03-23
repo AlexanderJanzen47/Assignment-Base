@@ -23,9 +23,9 @@
 
                 return `
                <li>
-                <span class="decision">${choice.category}, ${choice.name}</span> <br>
-                <span class="address">${choice.address_line_1}, <br>
-                ${choice.city}, ${choice.state}, ${choice.zip}</span>
+                <span class="decision"><strong>${choice.name}</strong> <br>
+                 ${choice.category} <br> ${choice.address_line_1} 
+                ${choice.city} <br> ${choice.state}, ${choice.zip}</span>
                 </li>
                 `
             }).join('');
