@@ -21,7 +21,7 @@ input.search {
     margin: 0;
     text-align: center;
     outline: 0;
-    border: 10px solid lightgray;
+    border: 5px solid lightgray;
     width: 120px;
     position: absolute;
     top: 10%;
