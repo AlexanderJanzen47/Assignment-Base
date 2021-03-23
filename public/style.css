@@ -22,7 +22,7 @@ input.search {
     text-align: center;
     outline: 0;
     border: 5px solid lightgray;
-    width: 120px;
+    width: 120%;
     position: absolute;
     top: 10%;
     left: 45%;
