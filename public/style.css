@@ -24,8 +24,8 @@ input.search {
     border: 10px solid lightgray;
     width: 120px;
     position: absolute;
-    top: 15%;
-    left: 40%;
+    top: 10%;
+    left: 45%;
     z-index: 2;
     font-size: 24px;
     border-radius: 4px;
