@@ -53,5 +53,5 @@ input.search {
 span.results {
     font-size: 12px;
     position: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
