@@ -36,7 +36,7 @@ input.search {
 .suggestions {
     margin: 0;
     padding: 0;
-    position: center;
+    position: absolute;
     top: 30%;
 }
 
@@ -60,4 +60,5 @@ span.results {
 
 span {
     padding: 1px;
+    margin-right: auto;
 }
