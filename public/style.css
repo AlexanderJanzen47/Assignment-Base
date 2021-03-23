@@ -26,7 +26,7 @@ input.search {
     width: 50%;
     position: absolute;
     top: 10%;
-    left: 10%;
+    left: 30%;
     z-index: 2;
     font-size: 24px;
     border-radius: 4px;
@@ -45,6 +45,7 @@ input.search {
     padding: 20px;
     display: flex;
     background: white;
+    left: 30%;
     list-style: none;
     justify-content:space-evenly;
     text-transform: capitalize;
