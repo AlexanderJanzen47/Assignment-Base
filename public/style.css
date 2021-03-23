@@ -37,6 +37,8 @@ input.search {
     padding: 0;
     position: relative;
     top: 30%;
+    display: inline-block;
+    background: violet;
 }
 
 .suggestions li {
