@@ -10,6 +10,7 @@ html {
 .searchbox {
     max-width: 500px;
     margin: auto;
+    float: left;
 }
 
 input {
