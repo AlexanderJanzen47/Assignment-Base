@@ -72,5 +72,10 @@ input.search {
     color: black;
     text-align: center;
     flex: 1 0 auto;
+}
+
+.results li {
+    margin-top: 4px;
+    margin-bottom: 4px;
     background: linear-gradient(lightsalmon, white);
 }
