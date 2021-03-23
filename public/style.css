@@ -41,10 +41,11 @@ input.search {
 .suggestions li {
     margin: 0;
     padding: 20px;
+    top: 20%;
     display: flex;
     background: white;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content:space-between;
     text-transform: capitalize;
 
 }
