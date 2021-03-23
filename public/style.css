@@ -1,33 +1,59 @@
 html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
-    font-weight: 100;
-    background: purple;
-    box-sizing: border-box;
-    max-width: 960px;
+    background: lightblue;
     /* specified in the instructions*/
 }
 
-.searchbox {
-    max-width: 500px;
-    margin: auto;
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container (max-width: 960px){
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.header {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: lightsalmon;
+    border: 5px solid white;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
 }
 
 input {
-    width: 100px;
-    padding: 20px;
+    width: 40%;
+}
+
+.searchbox {
+    max-width: 40%;
+    margin: auto;
 }
 
 input.search {
     margin: 0;
     text-align: center;
     outline: 0;
-    border: 5px solid lightgray;
-    width: 50%;
+    background: lightsalmon;
+    border: 5px solid white;
+    width: 25%;
     position: absolute;
-    top: 10%;
-    left: 25%;
-    z-index: 2;
+    top: 12%;
+    left: 38%;
     font-size: 24px;
     border-radius: 4px;
     box-shadow: 5px 10px 12px black;
@@ -35,29 +61,15 @@ input.search {
 
 .suggestions {
     margin: 0;
-    padding: 0;
+    padding: 12px;
     position: center;
     top: 30%;
-}
-
-.suggestions li {
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    background: white;
-    left: 30%;
-    position: center;
-    list-style: none;
-    justify-content:space-evenly;
-    text-transform: capitalize;
-}
-
-span.results {
-    font-size: 12px;
-    position: center;
-    justify-content: space-around;
-}
-
-span {
-    padding: 1px;
+    width:90%;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    list-style-type: none;
+    color: black;
+    text-align: center;
+    flex: 1 0 auto;
 }
